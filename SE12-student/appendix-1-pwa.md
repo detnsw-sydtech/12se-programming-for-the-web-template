@@ -1,4 +1,6 @@
+
 # Appendix 1 – Progressive Web Application (PWA) Guide  
+
 ### Programming for the Web – Software Engineering Stage 6 (Year 12)
 
 A **Progressive Web App (PWA)** is a web application that behaves like a native mobile or desktop app. PWAs can be installed, work offline, load quickly, and provide a smooth user experience.
