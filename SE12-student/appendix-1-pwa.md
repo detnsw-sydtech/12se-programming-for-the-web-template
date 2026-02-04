@@ -58,6 +58,7 @@ Example structure:
     }
   ]
 }
+```
 
 ### **2. Service Worker**
 A JavaScript file that runs in the background and enables:
