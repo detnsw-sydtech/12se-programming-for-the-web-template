@@ -134,41 +134,20 @@ When linked to GitHub Classroom, each student receives a **private**, **markable
 
 ## 🗂️ Repository Architecture Diagram
 
+## 🗂️ Repository Architecture Diagram
+
 ```mermaid
-flowchart TD
+flowchart TB
 
-    subgraph ROOT["12se-programming-for-the-web-template"]
-        direction TB
+    classDef bigText font-size:18px,fill:#f5f5f5,stroke:#333,stroke-width:1px,padding:20px;
 
-        STU["📘 SE12-student — Student Booklet and Appendices"]
-        TEA["🧑‍🏫 SE12-teacher — Teacher Resources and Marking Guides"]
-        SRC["🛠️ src/ — Server, Database, Logic"]
-        PUB["🌐 public/ — Front-end Assets"]
-        README["📄 README.md"]
-        LICENSE["⚖️ LICENSE (MIT)"]
-    end
-
-    subgraph STUDENT["SE12-student"]
-        direction TB
-        stu_index["index.md"]
-        stu_overview["unit-overview.md"]
-        stu_task["task-description.md"]
-        stu_steps["steps-to-success.md"]
-        stu_glossary["glossary.md"]
-        stu_app1["appendix-1-pwa.md"]
-        stu_app2["appendix-2-webserver.md"]
-    end
-
-    subgraph TEACHER["SE12-teacher"]
-        direction TB
-        tea_index["index.md"]
-        tea_overview["unit-overview.md"]
-        tea_task["task-description.md"]
-        tea_steps["steps-to-success.md"]
-        tea_glossary["glossary.md"]
-        tea_app1["appendix-1-pwa.md"]
-        tea_app2["appendix-2-webserver.md"]
-    end
+    ROOT["📦 12se-programming-for-the-web-template"]
+    STU["📘 SE12-student — Student Booklet and Appendices"]
+    TEA["🧑‍🏫 SE12-teacher — Teacher Resources and Marking Guides"]
+    SRC["🛠️ src/ — Server, Database, Logic"]
+    PUB["🌐 public/ — Front-end Assets"]
+    README["📄 README.md"]
+    LICENSE["⚖️ LICENSE (MIT)"]
 
     ROOT --> STU
     ROOT --> TEA
@@ -176,3 +155,5 @@ flowchart TD
     ROOT --> PUB
     ROOT --> README
     ROOT --> LICENSE
+
+    class ROOT,STU,TEA,SRC,PUB,README,LICENSE bigText;
