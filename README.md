@@ -133,6 +133,7 @@ When linked to GitHub Classroom, each student receives a **private**, **markable
 
 ## 🗂️ Repository Architecture Diagram
 
+
 ```mermaid
 flowchart TD
 
@@ -197,5 +198,5 @@ flowchart TD
     ROOT --> PUB
     ROOT --> README
     ROOT --> LICENSE
-
+```
 
