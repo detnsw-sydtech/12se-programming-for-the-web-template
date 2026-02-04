@@ -163,10 +163,10 @@ These practices help protect your application.
 Your web server must:
 
 ```checklist
-[ ] Use Node.js  and Express
-[ ] Serve HTML, CSS, and JavaScript files
-[ ] Connect to a SQLite database
-[ ] Provide routes that return JSON
-[ ] Handle errors safely
-[ ] Support your PWA’s functionality
+- [ ] Use Node.js  and Express
+- [ ] Serve HTML, CSS, and JavaScript files
+- [ ] Connect to a SQLite database
+- [ ] Provide routes that return JSON
+- [ ] Handle errors safely
+- [ ] Support your PWA’s functionality
 ```
