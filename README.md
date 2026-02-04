@@ -1,36 +1,147 @@
-Programming for the Web
+# 📘 **Programming for the Web – Unit Overview**  
+### Software Engineering Stage 6 (Year 12)
+
 ---
 
-## Outcomes
-Programming for the Web focus on outcomes that relate to designing, developing, and testing interactive, secure web applications using HTML, CSS, and backend languages (e.g., SQL). Assessment typically covers UI design, code efficiency, version control, and documentation, with grades ranging from basic understanding to advanced, efficient, and well-documented applications. 
+## 🌐 **About This Unit**
 
+**Programming for the Web** focuses on designing, developing, and testing **interactive**, **secure**, and **data‑driven** web applications. Students learn to build functional systems using **HTML**, **CSS**, **JavaScript**, and **SQL**, supported by modern development practices such as **version control**, **testing**, and **documentation**.
 
-## Key Outcome Descriptors
+This repository provides the full student booklet, appendices, and teacher resources for delivering the unit.
 
-### Design and Structure: 
-Demonstrates understanding of user interfaces (UI) and user experience (UX), creating functional HTML/CSS layouts.
-
-### Backend & Data Management: 
-Organises and accesses data using SQL, managing database interactions.
-
-### Programming Methodology: 
-Implements efficient code, using version control and understanding code libraries.
-
-### Testing and Debugging: 
-Tests and debugs web applications, identifying issues and ensuring functionality.
-
-### Documentation: 
-Creates technical documentation to explain code structure and function. 
 ---
 
-===
+## 🎯 **Key Outcome Descriptors**
 
-## Grade-Based Performance Descriptors 
-Outstanding/High Achievement (A/B): Develops complex, robust, and well-structured, responsive web applications with secure backend data handling. Code is highly efficient, well-documented, and utilizes version control and external libraries extensively.
-Sound Achievement (C): Develops functional web applications that use basic programming methodologies, SQL, and HTML/CSS. Systems are tested, and basic documentation is provided.
-Basic/Developing (D/E): Produces simple, functional code with minimal styling or basic database interaction. Demonstrates limited, emerging understanding of web structure or requires significant debugging assistance. 
-Common Assessment Criteria
-Accuracy: Correct use of HTML tags, CSS properties, and SQL syntax.
-Functionality: The website behaves as intended and operates without significant errors.
-Efficiency: Code is clean and optimized rather than just functional.
-Documentation: Clear explanation of code, design choices, and testing processes. 
+### 🎨 **Design and Structure**  
+Students demonstrate understanding of **User Interface (UI)** and **User Experience (UX)** principles, creating functional and accessible **HTML/CSS** layouts.
+
+### 🗄️ **Backend & Data Management**  
+Students organise, store, and retrieve data using **SQL**, designing and managing database interactions effectively.
+
+### 🧠 **Programming Methodology**  
+Students implement efficient, maintainable code, apply **version control**, and use **code libraries** appropriately.
+
+### 🧪 **Testing and Debugging**  
+Students test and debug web applications, identify issues, and ensure the system behaves as intended.
+
+### 📄 **Documentation**  
+Students produce clear, structured **technical documentation** explaining code structure, design decisions, and testing processes.
+
+---
+
+## 🏅 **Performance Bands (A–E)**  
+Aligned with the **Teacher Support Resource** and **Syllabus Outcomes**.
+
+---
+
+### 🟩 **Band A – Outstanding Achievement**  
+Students demonstrate **advanced mastery** of web development concepts.  
+They:
+
+- Develop **complex**, **robust**, and **well‑structured** web applications  
+- Implement **secure backend data handling**  
+- Produce **highly efficient**, **well‑documented** code  
+- Use **version control**, **libraries**, and **best practices** extensively  
+- Show strong independence and problem‑solving ability  
+
+---
+
+### 🟦 **Band B – High Achievement**  
+Students demonstrate **strong proficiency** and consistent application of skills.  
+They:
+
+- Build **responsive**, **functional**, and **secure** applications  
+- Apply SQL and backend logic effectively  
+- Use version control appropriately  
+- Provide clear documentation and testing evidence  
+
+---
+
+### 🟨 **Band C – Sound Achievement**  
+Students demonstrate **competent understanding** of core concepts.  
+They:
+
+- Develop **functional** web applications using HTML, CSS, SQL, and basic JavaScript  
+- Apply **basic programming methodologies**  
+- Conduct testing and provide **basic documentation**  
+- Show developing confidence with backend processes  
+
+---
+
+### 🟧 **Band D – Basic Achievement**  
+Students demonstrate **partial understanding** of required concepts.  
+They:
+
+- Produce **simple**, functional code with limited styling  
+- Show emerging understanding of **database interaction**  
+- Require support to debug and structure their work  
+- Provide minimal documentation  
+
+---
+
+### 🟥 **Band E – Developing Achievement**  
+Students demonstrate **limited progress** toward outcomes.  
+They:
+
+- Produce **very simple** or incomplete code  
+- Show minimal understanding of web structure or SQL  
+- Require significant guidance to complete tasks  
+- Provide little or no documentation  
+
+---
+
+## 📌 **Common Assessment Criteria**
+
+### ✔️ **Accuracy**  
+Correct use of **HTML tags**, **CSS properties**, **JavaScript syntax**, and **SQL statements**.
+
+### ⚙️ **Functionality**  
+The application behaves as intended, with no major errors or broken features.
+
+### 🚀 **Efficiency**  
+Code is **clean**, **readable**, and **optimised**, not just functional.
+
+### 📝 **Documentation**  
+Clear explanation of:
+
+- Code structure  
+- Design choices  
+- Testing processes  
+- Database schema  
+
+---
+
+## 📂 **Repository Structure**
+
+```bash
+SE12-student/      → Student booklet and appendices
+SE12-teacher/      → Teacher-only resources, marking guides, solutions
+public/            → Front-end assets (if included in template)
+src/               → Server, database, and logic files
+LICENSE            → MIT License
+README.md           → This file
+```
+
+```tree
+SE12-student/      → Student booklet and appendices
+SE12-teacher/      → Teacher-only resources, marking guides, solutions
+public/            → Front-end assets (if included in template)
+src/               → Server, database, and logic files
+LICENSE            → MIT License
+README.md           → This file
+```
+
+
+
+
+
+
+
+
+
+
+
+
+## 📂 **Repository Structure**
+
