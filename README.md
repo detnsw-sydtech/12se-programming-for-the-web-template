@@ -130,25 +130,25 @@ README.md           → This file
 This repository is designed to be used as a **template** for individual student assignments.  
 When linked to GitHub Classroom, each student receives a **private**, **markable**, **independent** copy.
 
+---
 
 ## 🗂️ Repository Architecture Diagram
-
 
 ```mermaid
 flowchart TD
 
-    subgraph ROOT["📦 12se-programming-for-the-web-template"]
+    subgraph ROOT["12se-programming-for-the-web-template"]
         direction TB
 
-        STU["📘 SE12-student<br/>Student Booklet + Appendices"]
-        TEA["🧑‍🏫 SE12-teacher<br/>Teacher Resources, Marking Guides, Solutions"]
-        SRC["🛠️ src/<br/>Server, Database, Logic"]
-        PUB["🌐 public/<br/>Front-end Assets"]
+        STU["📘 SE12-student — Student Booklet and Appendices"]
+        TEA["🧑‍🏫 SE12-teacher — Teacher Resources and Marking Guides"]
+        SRC["🛠️ src/ — Server, Database, Logic"]
+        PUB["🌐 public/ — Front-end Assets"]
         README["📄 README.md"]
         LICENSE["⚖️ LICENSE (MIT)"]
     end
 
-    subgraph STUDENT["📘 SE12-student"]
+    subgraph STUDENT["SE12-student"]
         direction TB
         stu_index["index.md"]
         stu_overview["unit-overview.md"]
@@ -159,7 +159,7 @@ flowchart TD
         stu_app2["appendix-2-webserver.md"]
     end
 
-    subgraph TEACHER["🧑‍🏫 SE12-teacher"]
+    subgraph TEACHER["SE12-teacher"]
         direction TB
         tea_index["index.md"]
         tea_overview["unit-overview.md"]
@@ -168,28 +168,6 @@ flowchart TD
         tea_glossary["glossary.md"]
         tea_app1["appendix-1-pwa.md"]
         tea_app2["appendix-2-webserver.md"]
-
-        subgraph MARKING["📝 marking-guide/"]
-            rubric["rubric.md"]
-            criteria["criteria-examples.md"]
-            errors["common-errors.md"]
-            comments["feedback-comments.md"]
-        end
-
-        subgraph SOLUTIONS["💡 solutions/"]
-            sql["sample-sql/"]
-            json["sample-json/"]
-            server["sample-server/"]
-            frontend["sample-front-end/"]
-        end
-
-        subgraph NOTES["📚 teacher-notes/"]
-            seq["lesson-sequencing.md"]
-            tips["teaching-tips.md"]
-            diff["differentiation-strategies.md"]
-            access["accessibility-guidance.md"]
-            trouble["troubleshooting-guide.md"]
-        end
     end
 
     ROOT --> STU
@@ -198,5 +176,3 @@ flowchart TD
     ROOT --> PUB
     ROOT --> README
     ROOT --> LICENSE
-```
-
