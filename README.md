@@ -134,8 +134,6 @@ When linked to GitHub Classroom, each student receives a **private**, **markable
 
 ## 🗂️ Repository Architecture Diagram
 
-## 🗂️ Repository Architecture Diagram
-
 ```mermaid
 flowchart TB
 
