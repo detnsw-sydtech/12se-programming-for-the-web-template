@@ -90,6 +90,7 @@ db.all("SELECT * FROM items", [], (err, rows) => {
   if (err) return res.status(500).json({ error: err.message });
   res.json(rows);
 });
+```
 
 ## 4. Progressive Web App Features
 
