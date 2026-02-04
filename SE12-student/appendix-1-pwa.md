@@ -42,7 +42,7 @@ It includes:
 - Display mode (e.g., fullscreen, standalone)  
 - Start URL  
 
-Example structure:
+Example structure of a json file:
 
 ```json
 {
@@ -61,6 +61,8 @@ Example structure:
   ]
 }
 ```
+
+---
 
 ### **2. Service Worker**
 A JavaScript file that runs in the background and enables:
@@ -84,6 +86,7 @@ if ("serviceWorker" in navigator) {
 }
 ```
 
+---
 ### **3. HTTPS
 
 PWAs require secure hosting.
@@ -105,6 +108,45 @@ Your service worker can:
 
 This allows your PWA to load even without internet access.
 
+---
 
+## 📱 Installing a PWA
 
+When your PWA meets the required criteria, browsers will show an **“Install App”** or **“Add to Home Screen”** option.
+
+Your PWA becomes:
+
+- Launchable like a native app
+- Fullscreen or standalone
+- Faster to access
+
+---
+
+## 🧪 Testing Your PWA
+
+Use **Google Lighthouse** (in Chrome DevTools) to test:
+
+- Performance
+- Accessibility
+- Best practices
+- PWA compliance
+
+You should aim for:
+
+- A valid manifest
+- A registered service worker
+- A secure connection
+- Good performance scores
+
+## 📝 Summary Checklist
+
+Your PWA must include:
+- [ ] manifest.json
+- [ ] App icons
+- [ ] A registered service worker
+- [ ] Caching behaviour
+- [ ] Offline support
+- [ ] HTTPS (or localhost for development)
+- [ ] Responsive design
+- [ ] Installability
 
