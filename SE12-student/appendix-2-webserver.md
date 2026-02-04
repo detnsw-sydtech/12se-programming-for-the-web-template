@@ -160,13 +160,13 @@ These practices help protect your application.
 
 ## 📝 Summary Checklist
 
-Your web server must:
+Your web server must include and be able to do the following:
 
-```checklist
+- [ ] manifest.json
 - [ ] Use Node.js  and Express
 - [ ] Serve HTML, CSS, and JavaScript files
 - [ ] Connect to a SQLite database
 - [ ] Provide routes that return JSON
 - [ ] Handle errors safely
 - [ ] Support your PWA’s functionality
-```
+
