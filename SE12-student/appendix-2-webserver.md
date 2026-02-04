@@ -58,3 +58,15 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
+```
+
+## What this code does:
+
+- Creates an Express app
+- Serves static files from a ```public``` folder
+- Sends ```index.html``` when the user visits the home page
+- Starts the server on ```localhost:3000```
+---
+
+
+
