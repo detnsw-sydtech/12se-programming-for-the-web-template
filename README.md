@@ -123,25 +123,13 @@ LICENSE            → MIT License
 README.md           → This file
 ```
 
-```tree
-SE12-student/      → Student booklet and appendices
-SE12-teacher/      → Teacher-only resources, marking guides, solutions
-public/            → Front-end assets (if included in template)
-src/               → Server, database, and logic files
-LICENSE            → MIT License
-README.md           → This file
-```
+---
+
+## 🚀 **Using This Template in GitHub Classroom**
+
+This repository is designed to be used as a **template** for individual student assignments.  
+When linked to GitHub Classroom, each student receives a **private**, **markable**, **independent** copy.
 
 
 
-
-
-
-
-
-
-
-
-
-## 📂 **Repository Structure**
 
